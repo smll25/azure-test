@@ -1,0 +1,21 @@
+{
+	"info": {
+		"_postman_id": "20d618b7-b242-4e92-9ca1-8e95b8c98327",
+		"name": "Postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://postman-echo.com/get?test=123",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
