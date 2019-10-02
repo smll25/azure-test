@@ -1,17 +1,50 @@
 {
 	"info": {
-		"_postman_id": "20d618b7-b242-4e92-9ca1-8e95b8c98327",
+		"_postman_id": "defbd235-7af9-49db-b284-69fef04d5c75",
 		"name": "Postman",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
 			"name": "https://postman-echo.com/get?test=123",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "52c5fb7d-fb20-45ef-821a-035f447b1783",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Verify url value\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.url).to.eql(\"https://postman-echo.com/get?test=123\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": ""
+					"raw": "https://postman-echo.com/get?test=123",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"get"
+					],
+					"query": [
+						{
+							"key": "test",
+							"value": "123"
+						}
+					]
 				}
 			},
 			"response": []
