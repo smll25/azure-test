@@ -7,7 +7,12 @@
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{DB1C13CE-9DA8-47C9-9A43-15801EF277BB}" version="14">
-		<children />
+		<children>
+			<testItem name="ProjectTestItem1" key="{3FED248C-F19B-425E-B2D5-57287B198E30}" group="False" enabled="True" testMoniker="KDT\{10C16DB5-B4D3-4C94-9309-06D8C7CC4934}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children />
+			</testItem>
+		</children>
 	</testItems>
 	<variables key="{C516F221-5D4D-47B5-9A20-8C51616B255E}">
 		<data Version="3" />
