@@ -42,6 +42,7 @@
 					</Node>
 					<Node name="1">
 						<Node name="editor">
+							<Node name="{4f9540d5-d9ab-44cd-8dca-73f5f2e7a572}"/>
 							<Node name="{8c45957c-f4b3-4dd7-9212-49cbd350f69f}">
 								<Prp name="key" type="S" value="{18F676F5-B1F1-48FD-B267-5B04B8243D97}"/>
 							</Node>
@@ -58,6 +59,7 @@
 								</Node>
 								<Prp name="key" type="S" value="{0D75791F-67BB-4C71-A2B0-20E1502F915B}"/>
 							</Node>
+							<Node name="{eb7c9d82-bc63-4167-ad95-a6b053bbda71}"/>
 							<Prp name="editor" type="S" value="{4E3761FF-C947-45BC-9DB8-277C7D19C610}"/>
 							<Prp name="focused" type="S" value="{0D75791F-67BB-4C71-A2B0-20E1502F915B}"/>
 						</Node>
@@ -65,9 +67,12 @@
 					</Node>
 					<Node name="2">
 						<Node name="editor">
+							<Node name="{18d21374-749a-4b12-9591-aeba7c5332a9}"/>
 							<Node name="{531ace08-e68e-400b-9eb9-e24763725fd8}">
 								<Prp name="key" type="S" value="{E54DB3E2-8DF9-4A72-A077-2B96F3C14390}"/>
 							</Node>
+							<Node name="{9185a4c3-0780-497d-b02d-ad3af4e9cf98}"/>
+							<Node name="{98f67204-5328-4e0e-99f5-6d1b1e6d4971}"/>
 							<Prp name="editor" type="S" value="{06C9178C-B77E-490A-984F-A86686ABA243}"/>
 							<Prp name="focused" type="S" value="{E54DB3E2-8DF9-4A72-A077-2B96F3C14390}"/>
 						</Node>
@@ -75,6 +80,7 @@
 					</Node>
 					<Node name="3">
 						<Node name="editor">
+							<Node name="{d02cce92-fd05-4f42-a803-fe08e8104e33}"/>
 							<Prp name="editor" type="S" value="{ACF0E706-6488-4498-8BC9-637BEF556E42}"/>
 							<Prp name="focused" type="S" value="{C709BE32-78F2-4EC7-842B-7AADC71D096B}"/>
 						</Node>
@@ -82,6 +88,9 @@
 					</Node>
 					<Node name="4">
 						<Node name="editor">
+							<Node name="{18d21374-749a-4b12-9591-aeba7c5332a9}"/>
+							<Node name="{9185a4c3-0780-497d-b02d-ad3af4e9cf98}"/>
+							<Node name="{f8a33ae1-4de7-4d58-b41e-fe35fd36deba}"/>
 							<Prp name="editor" type="S" value="{166BE48F-EFD3-4378-B966-F867EB608380}"/>
 							<Prp name="focused" type="S" value="{B94EA584-B685-4773-97F4-A7ECB1FF60DC}"/>
 						</Node>
