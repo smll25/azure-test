@@ -1,0 +1,6 @@
+﻿Sub ChromeNewTab{
+  Call Sys.Process("chrome").Page("*").Keys("^t")
+
+}
+  
+End Sub

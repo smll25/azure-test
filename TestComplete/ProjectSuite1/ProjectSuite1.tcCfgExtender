@@ -33,7 +33,7 @@
 					<Node name="0">
 						<Node name="editor">
 							<Node name="{93765269-c25d-4cd5-b6bf-5d7454869c93}">
-								<Prp name="key" type="S" value="{915EFE83-6911-4A00-8434-D78EB6B86B75}"/>
+								<Prp name="key" type="S" value="{823DA2D6-ACC5-4B39-9C66-0510619C44EC}"/>
 							</Node>
 							<Prp name="editor" type="S" value="{F24BE40B-29A7-4488-BA6C-66407938D02E}"/>
 							<Prp name="focused" type="S" value="{915EFE83-6911-4A00-8434-D78EB6B86B75}"/>
@@ -170,11 +170,10 @@
 				<Node name="projectsuite1">
 					<Node name="testproject1">
 						<Node name="keywordtests"/>
+						<Node name="script"/>
 					</Node>
 				</Node>
-				<Node name="projectsuite1 logs">
-					<Node name="testproject1 logs"/>
-				</Node>
+				<Node name="projectsuite1 logs"/>
 			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{8EBE6EB3-803D-4913-AD7A-D71552123A67}"/>

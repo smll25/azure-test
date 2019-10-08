@@ -21,6 +21,9 @@
 			</Extenders>
 		</Data>
 		<Children>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="ChromeNewTab" Unit="OpenTab" />
+			</Operation>
 			<Operation Type="{D95A0934-BE78-45D6-B254-2098596D2A11}">
 				<Data Description="Opens the specified URL in a running instance of the specified browser." BrowserName="chrome">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
@@ -105,13 +108,10 @@
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageTorfabrikOfficialGameBall.sectionContent.textnode;" />
 				</Data>
 			</Operation>
-			<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
-				<Data Comment="Test" />
-			</Operation>
 			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
 				<Data Description="Delays the test execution for the specified time period.">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="500" />
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="1000" />
 						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
 					</Parameters>
 				</Data>
